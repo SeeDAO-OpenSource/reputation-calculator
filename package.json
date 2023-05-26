@@ -1,0 +1,17 @@
+{
+  "name": "reputation-calculator",
+  "version": "1.0.0",
+  "description": "Calculate your reputation in SeeDAO, i.e., the effective scores",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SeeDAO",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.0.3",
+    "ethers": "^6.4.0"
+  }
+}
