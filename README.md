@@ -6,7 +6,7 @@
 
 具体计算方式，请参见 [SIP-20: 节点共识大会规则修订版](https://forum.seedao.xyz/thread/v3-40828)
 
-## 查看历史数据
+## 🔍查看历史数据
 
 请到 `reputations/` 目录下查看每一季度的统计结果。
 
@@ -18,9 +18,10 @@
 git clone https://github.com/SeeDAO-OpenSource/reputation-calculator.git
 cd seedao-reputation-calculator
 npm install
+cp .env.example .env
 ```
 
-2. 编辑环境变量
+2. 在 `.env` 中编辑环境变量
 
 你可以随意生成一个钱包，然后去 [Infura](https://www.infura.io) 注册，然后创建一个项目，然后将项目的 `API_KEY` 和你钱包的 `private key` 填入到 `.env` 文件中
 
