@@ -116,7 +116,7 @@ async function main(holders) {
       return a + b
     })
     const esPass = effectiveScores >= esRequire ? true : false
-    const seasonPass = totalScores >= seasonRequire ? true : false
+    const seasonPass = record.gains[record.gains.length - 1] >= seasonRequire ? true : false
     const sgnPass = record.sgns >= sgnRequire ? true : false
     const isNode = esPass && seasonPass && sgnPass ? true : false
     let str = `${record.holder},${isNode},${esPass},${seasonPass},${sgnPass},${effectiveScores},${totalScores},${record.sgns},`
